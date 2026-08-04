@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt, Haugesund Flyttebyrå</title>
+<meta name="description" content="Ta kontakt med Haugesund Flyttebyrå. Send oss en e-post om hva og hvor du vil flytte, så svarer vi så fort vi kan.">
+<meta name="theme-color" content="#E81E27">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Haugesund Flyttebyrå"></a>
+    <nav class="main-nav">
+      <a href="index.html">Hjem</a>
+      <a href="tjenester.html">Tjenester</a>
+      <a href="kontakt.html" class="active">Kontakt</a>
+      <a href="kontakt.html" class="nav-cta desktop-only">Ta kontakt</a>
+    </nav>
+    <button class="hamburger" aria-label="Åpne meny">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="overlay"></div>
+<div class="mobile-drawer">
+  <div class="drawer-top"><button class="drawer-close" aria-label="Lukk meny">×</button></div>
+  <a href="index.html">Hjem</a>
+  <a href="tjenester.html">Tjenester</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="kontakt.html" class="nav-cta">Ta kontakt</a>
+  <div class="drawer-contact">
+    <a href="tel:+4790857564">Tlf: 908 57 564</a>
+    <a href="mailto:dag@haugesund-flyttebyraa.no">dag@haugesund-flyttebyraa.no</a>
+  </div>
+</div>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="kicker" data-animate>Kontakt</span>
+      <h1 data-animate>Sjefen ser fram til din samtale</h1>
+      <p data-animate>Send oss en e-post om hva og hvor du vil flytte, så svarer vi så fort vi kan. MVH Dag.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="contact-grid" data-stagger>
+        <div class="contact-card">
+          <h3>Kontakt oss</h3>
+          <p class="big">
+            Haugesund Flyttebyrå<br>
+            Godsterminalen Flotmyr<br>
+            5507 Haugesund<br><br>
+            Tlf: <a href="tel:+4790857564">908 57 564</a><br>
+            E-post: <a href="mailto:dag@haugesund-flyttebyraa.no">dag@haugesund-flyttebyraa.no</a>
+          </p>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps?q=Godsterminalen+Flotmyr,+5507+Haugesund&output=embed" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="form-card" data-animate>
+        <div class="form-success">Takk for meldingen! Vi svarer så fort vi kan.</div>
+        <form class="contact-form" action="https://formsubmit.co/dag@haugesund-flyttebyraa.no" method="POST">
+          <input type="hidden" name="_subject" value="Ny henvendelse fra haugesund-flyttebyraa.no">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="navn">Navn</label>
+              <input type="text" id="navn" name="Navn" required>
+            </div>
+            <div class="form-group">
+              <label for="epost">E-post</label>
+              <input type="email" id="epost" name="E-post" required>
+            </div>
+            <div class="form-group">
+              <label for="telefon">Telefonnummer <span class="opt">(valgfritt)</span></label>
+              <input type="tel" id="telefon" name="Telefonnummer">
+            </div>
+            <div class="form-group">
+              <label for="emne">Emne <span class="opt">(valgfritt)</span></label>
+              <input type="text" id="emne" name="Emne">
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="melding">Melding</label>
+            <textarea id="melding" name="Melding" required placeholder="Hva og hvor vil du flytte?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send melding</button>
+          <p class="form-note">Vi svarer så fort vi kan.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Haugesund Flyttebyrå">
+        <p>Haugesund Flyttebyrå hjelper private og bedrifter med flytting lokalt, nasjonalt og internasjonalt.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="tjenester.html">Tjenester</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+4790857564">Tlf: 908 57 564</a></li>
+          <li><a href="mailto:dag@haugesund-flyttebyraa.no">dag@haugesund-flyttebyraa.no</a></li>
+          <li>Godsterminalen Flotmyr, 5507 Haugesund</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Haugesund Flyttebyrå</div>
+      <div>Nettside levert av <a href="https://dmarketing.no" target="_blank" rel="noopener">Dietrichs Marketing</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
